@@ -7,10 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1 style="background-color: BLUE">
-		<font color="WHITE" size="35">Book Store</font>
-	</h1>
-	<h3>Failed!! Account for this User name and Password already
+	
+	<h3>Sorry!! Account for this User name already
 		exist.</h3>
 	<a href=registration.jsp>Sign Up?</a>
 	<br>

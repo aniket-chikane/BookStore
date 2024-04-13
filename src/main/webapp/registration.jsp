@@ -10,9 +10,7 @@
 </head>
 <body>
 
-	<h1 style="background-color: BLUE">
-		<font color="WHITE" size="35">Book Store</font>
-	</h1>
+	
 
 	<center>
 
@@ -32,7 +30,7 @@
  -->
 
 					<tr>
-						<td>Full Name :<br>
+						<td>UserName :<br>
 						<br></td>
 						<td><input type="text" name="name" required><br>
 						<br></td>

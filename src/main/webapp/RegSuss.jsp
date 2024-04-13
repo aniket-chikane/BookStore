@@ -7,9 +7,7 @@
 <title>Book Store</title>
 </head>
 <body>
-	<h1 style="background-color: BLUE">
-		<font color="WHITE" size="35">Book Store</font>
-	</h1>
+	
 	<p align="right"></p>
 	<h3>
 		<font color="GREEN">Account Successfully Created...</font>

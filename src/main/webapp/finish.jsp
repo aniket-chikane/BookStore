@@ -20,7 +20,7 @@ String Un = (String) session.getAttribute("Uname");
 			<h3>
 				<font color="GREEN">Your Order has been Confirmed...</font>
 			</h3>
-			<h4>The Book will be delivered within 2 days.</h4>
+			<h4>The Book will be delivered within a Week.</h4>
 			<h4>Thank you for Online Book Shopping...</h4>
 			<a href="shoBook.jsp">More Books?</a>
 		</center>

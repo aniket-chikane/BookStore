@@ -18,7 +18,7 @@
 					<font color="RED" face="PhyllisD" size="20"><u>Login </u></font>
 				</legend>
 				<br>
-				<br> Enter Name :&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input
+				<br> UserName :&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input
 					type="text" name="name" required><br>
 				<br> Enter password : <input type="password" name="pass"
 					required><br>
