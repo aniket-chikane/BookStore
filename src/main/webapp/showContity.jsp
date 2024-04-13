@@ -15,12 +15,10 @@
 	<%
 String Un = (String) session.getAttribute("Uname");
 %>
-	<h1 style="background-color: BLUE">
-		<font color="WHITE" size="30"><u>Book Store</u></font>
-	</h1>
+	
 	<p align="right">
 		<font color="RED">Welcome, </font><%=Un%>
-		<a href="index.jsp">Log Out?</a>
+		<br><a href="index.jsp">Log Out?</a>
 	</p>
 	<%
 
@@ -47,10 +45,10 @@ session.setAttribute("Bid", Bid);
 			<legend align="center">
 				<font color="RED" size="35" face="PhyllisD">Book Details</font>
 			</legend>
-			<font color="GREEN" size="5">"<%=Bauthor%>"
+			<font color="GREEN" size="5">"<%=Bname%>"
 			</font>
 			<h4>
-				by <font color="RED"><u><%=Bname%></u></font>
+				by <font color="RED"><u><%=Bauthor%></u></font>
 			</h4>
 			Book price: <font color="BLUE"><%=Bprice%> INR</font>
 

@@ -11,9 +11,7 @@
 	<%
 String Un = (String) session.getAttribute("Uname");
 %>
-	<h1 style="background-color: BLUE">
-		<font color="WHITE" size="35">Book Store</font>
-	</h1>
+	
 	<p align="right">
 		<font color="RED">Welcome, </font><%=Un%>
 		<a href="index.jsp">Log Out?</a>
@@ -98,6 +96,7 @@ Total Bill Amount :<%=count%> * <%=Bprice%> = <font color = "RED"><%=total %> IN
 						<td><font color="RED"><%=total %> INR.</font></td>
 					</tr>
 				</table>
+				<input type ="hidden" value = "<%=request.getParameter("count")%>" name ="quantity">
 				<input type="submit" value="Purchase"><br>
 			</form>
 			<form action="shoBook.jsp">

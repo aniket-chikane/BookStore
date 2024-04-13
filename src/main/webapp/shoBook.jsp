@@ -13,9 +13,7 @@
 <title>Book Store</title>
 </head>
 <body>
-	<h1 style="background-color: BLUE">
-		<font color="WHITE" size="35">Book Store</font>
-	</h1>
+	
 	<%
 SessionFactory sf = new AnnotationConfiguration().configure().buildSessionFactory();
 Session sess = sf.openSession();
@@ -26,7 +24,7 @@ String Un = (String) session.getAttribute("Uname");
 %>
 	<p align="right">
 		<font color="RED">Welcome, </font><%=Un%>
-		<a href="index.jsp">Log Out?</a>
+		<br><a href="index.jsp">Log Out?</a>
 	</p>
 
 	<center>
@@ -34,7 +32,7 @@ String Un = (String) session.getAttribute("Uname");
 			<legend align="center">
 				<font color="RED" face="PhyllisD" size="20">Book list</font>
 			</legend>
-			<h3>Here are some of the popular java books list.</h3>
+			<h3>Here are some of the popular books.</h3>
 			<table border=1>
 				<tr>
 					<th>Book ID</th>
@@ -43,15 +41,15 @@ String Un = (String) session.getAttribute("Uname");
 					<th>Book Price</th>
 				</tr>
 				<%
-int bookid ;
 for(Books book : books)
 {
-	bookid = book.getBid();
+	 String bid = String.valueOf( book.getBid());
 	%>
 				</th>
 				<td><%=book.getBid()%></td>
-				<td><a href=showContity.jsp?bookid= <%=bookid%>><%=book.getBauthor()%></a></td>
-				<td><%=book.getBname()%></td>
+				<td><a href=showContity.jsp?bookid=<%=bid%>><%=book.getBname()%></td>
+				<td><%=book.getBauthor()%></a></td>
+				
 				<td><%=book.getBprice()%> INR</td>
 				</tr>
 				<%} %>

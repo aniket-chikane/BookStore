@@ -9,9 +9,6 @@
 </head>
 <body>
 
-	<h1 style="background-color: BLUE">
-		<font color="WHITE" size="35">Book Store</font>
-	</h1>
 	<center>
 		<fieldset>
 			<legend align="center">
@@ -20,14 +17,13 @@
 			<h3>Welcome to Shopping Cart for Book Store</h3>
 			<h3>
 				<font color="GREEN">Hear you can find Books related to
-					JAVA...</font>
+					Anything you Want...</font>
 			</h3>
 			<h2>
-				<font color="ORANGE">Login and Purchase your favorite Book
-					Right NOW...</font>
+				<font color="ORANGE">Login and Purchase your Favorite Books...</font>
 			</h2>
 			<a href="login.jsp">SIGN IN</a><br>
-			<br> Not yet Registered!!<br>
+			<br> Not yet Registered!! Don't Worry<br>
 			<br>
 			<a href="registration.jsp"> REGISTER NOW ?</a><br>
 			<br>
@@ -38,11 +34,8 @@
 			<br>
 			<br>
 			<br>
-			<footer>
-			<h5 align="center">
-				Design and Developed by :<font color="RED">Shatakshi Gupta</font>
-			</h5>
-			</footer>
+			
+			
 		</fieldset>
 
 	</center>

@@ -10,12 +10,10 @@
 	<%
 String Un = (String) session.getAttribute("Uname");
 %>
-	<h1 style="background-color: BLUE">
-		<font color="WHITE" size="35">Book Store</font>
-	</h1>
+	
 	<p align="right">
 		<font color="RED">Welcome, </font><%=Un%>
-		<a href="index.jsp">Log Out?</a>
+		<br><a href="index.jsp">Log Out?</a>
 	</p>
 	<fieldset>
 		<center>

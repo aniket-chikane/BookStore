@@ -20,9 +20,11 @@
 String Uid = (String)session.getAttribute("Uid");
 int Bid = (int) session.getAttribute("Bid");
 String addr = request.getParameter("addr");
+int num = Integer.parseInt( request.getParameter("quantity"));
 int  uid = Integer.parseInt(Uid); 
 Purchase pr = new Purchase();
 pr.setUid(uid);
+pr.setQuantity(num);
 pr.setBid(Bid);
 pr.setAddress(addr);
 DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");

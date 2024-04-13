@@ -8,9 +8,7 @@
 
 </head>
 <body>
-	<h1 style="background-color: BLUE">
-		<font color="WHITE" size="35">Book Store</font>
-	</h1>
+	
 	<br>
 	<br>
 	<center>

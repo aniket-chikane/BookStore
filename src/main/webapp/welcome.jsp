@@ -12,9 +12,7 @@
 String name = (String) session.getAttribute("Uname");
 String id = (String) session.getAttribute("Uid");
 %>
-	<h1 style="background-color: BLUE">
-		<font color="WHITE" size="35">Book Store</font>
-	</h1>
+	
 	<p align="right">
 		<font color="RED">Welcome, </font><%=name%>
 		<a href="index.jsp">Log Out?</a>

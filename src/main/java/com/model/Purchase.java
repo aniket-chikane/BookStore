@@ -9,10 +9,17 @@ import javax.persistence.Id;
 public class Purchase {
 	
 	@Id @GeneratedValue(strategy=GenerationType.AUTO)
-	private int counts;
+	private int OrderNo;
 	private String BPdate;
 	private int Uid;
 	private int bid;
+	private int Quantity;
+	public int getQuantity() {
+		return Quantity;
+	}
+	public void setQuantity(int quantity) {
+		Quantity = quantity;
+	}
 	private String Address;
 	
 	public int getUid() {
@@ -33,12 +40,8 @@ public class Purchase {
 	public void setBPdate(String bPdate) {
 		BPdate = bPdate;
 	}
-	public int getCounts() {
-		return counts;
-	}
-	public void setCounts(int counts) {
-		this.counts = counts;
-	}
+	
+	
 	public String getAddress() {
 		return Address;
 	}
